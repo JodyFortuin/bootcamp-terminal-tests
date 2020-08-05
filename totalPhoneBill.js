@@ -1,4 +1,4 @@
-function totalPhoneBill(bill){
+module.exports = function totalPhoneBill(bill){
   var callLog = bill.split(', ')
      var phoneBill = 0;
   for(var i=0; i < callLog.length; i++)
